@@ -4,7 +4,7 @@ import path from 'path';
 import HtmlWebpackPlugin from 'html-webpack-plugin';
 import CleanWebpackPlugin from 'clean-webpack-plugin';
 import CopyWebpackPlugin from 'copy-webpack-plugin';
-
+console.log("This is the additional code");
 module.exports = new WebpackConfig().merge({
   output: {
     path: path.join(__dirname, '/dist'),
